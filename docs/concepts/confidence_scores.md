@@ -36,9 +36,9 @@ A confidence report contains *scores* and *grades*:
 
 Each confidence report includes four component scores and grades:
 
-- **`layout_score`**: Overall quality of text content extraction
+- **`layout_score`**: Overall quality of document element recognition 
 - **`ocr_score`**: Quality of OCR-extracted content
-- **`parse_score`**: 10th percentile score of text cells (emphasizes problem areas)
+- **`parse_score`**: 10th percentile score of digital text cells (emphasizes problem areas)
 - **`table_score`**: Table extraction quality *(not yet implemented)*
 
 ### Summary grades
